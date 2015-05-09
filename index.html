@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>The Funky Sox</title>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/normalize.css" rel="stylesheet" type="text/css">
+        <link href="css/foundation.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">INICIO</a>
+                        </li>
+                        <li>
+                            <a href="#">NOSOTROS</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li class="logo">
+                            <a href="#">
+                                <img src="img/logo-final.png"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">COMPRAR</a>
+                        </li>
+                        <li>
+                            <a href="#">COMPARTE</a>
+                        </li>
+                        <li>
+                            <a href="#">MI CUENTA</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="main">
+                <div class="main-text">
+                    <h1>INCREIBLES MEDIAS DE DISEÑO<br/>QUE TE ENVIAMOS UNA VEZ AL MES</h1>
+                    <p>Suscribete y tus pies te lo agradecerán luego!</p>
+                    <a id="comprarButton" href="#" class="button round">ME ENCANTA QUIERO!</a>
+                </div>
+            </div>
+        </div>
+        <script src="js/vendor/jquery.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#comprarButton").click(function(){
+                    alert("Le encantó mi producto, comprame pe varón!!!")
+                });
+            });
+        </script>
+    </body>
+</html>
